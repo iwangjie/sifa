@@ -1,0 +1,299 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" >
+<html>
+
+	<head>
+		<meta charset="gbk">
+		<title>司法局</title>
+		<meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no">
+		<link rel="stylesheet" type="text/css" href="css/xuni.css" />
+		<link rel="stylesheet" type="text/css" href="css/xuni_lunbo.css" />
+		<link rel="stylesheet" href="css/demo.css" type="text/css" media="screen" />
+
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+<script language="JavaScript"> 
+function myrefresh()
+{
+       window.location.reload();
+}
+setTimeout('myrefresh()',30000); //指定1秒刷新一次
+</script>
+
+		<script src="js/script.js"></script>
+<script src="js/slider.js"></script>
+<script type="text/javascript">
+$(function() {
+	var bannerSlider = new Slider($('#banner_tabs'), {
+		time: 5000,
+		delay: 400,
+		event: 'hover',
+		auto: true,
+		mode: 'fade',
+		controller: $('#bannerCtrl'),
+		activeControllerCls: 'active'
+	});
+	$('#banner_tabs .flex-prev').click(function() {
+		bannerSlider.prev()
+	});
+	$('#banner_tabs .flex-next').click(function() {
+		bannerSlider.next()
+	});
+
+})
+</script>
+
+		<script type="text/javascript">
+		
+			$(function() {
+
+				$('.img_pp').hover(function() { //鼠标滑过图片切换 
+						$('.img_pp').attr('src', 'img/jiemian_1.png');
+					},
+					function() {
+						$('.img_pp').attr('src', 'img/ipad_1.png');
+					});
+					
+			});
+		</script>
+		<script type="text/javascript">
+			$(function() {
+
+				$('.xiezuo').hover(function() { //鼠标滑过图片切换 
+						$('.xiezuo').attr('src', 'img/xiezuobangong_53.png');
+					},
+					function() {
+						$('.xiezuo').attr('src', 'img/xiezuo_53.png');
+					});
+			});
+		</script>
+		<script type="text/javascript">
+			$(function() {
+
+				$('.guanli').hover(function() { //鼠标滑过图片切换 
+						$('.guanli').attr('src', 'img/geren01.png');
+					},
+					function() {
+						$('.guanli').attr('src', 'img/geren.png');
+					});
+			});
+		</script>
+		<script type="text/javascript">
+			$(function() {
+
+				$('.jincheng').hover(function() { //鼠标滑过图片切换 
+						$('.jincheng').attr('src', 'img/zhengwu01.png');
+					},
+					function() {
+						$('.jincheng').attr('src', 'img/zhengwu.png');
+					});
+			});
+		</script>
+		<script type="text/javascript">
+			$(function() {
+
+				$('.shangtan_a').hover(function() { //鼠标滑过图片切换 
+						$('.shangtan_a').attr('src', 'img/a_1.png');
+					},
+					function() {
+						$('.shangtan_a').attr('src', 'img/a.png');
+					});
+			});
+		</script>
+		<script type="text/javascript">
+			$(function() {
+
+				$('.shangtan_b').hover(function() { //鼠标滑过图片切换 
+						$('.shangtan_b').attr('src', 'img/b_1.png');
+					},
+					function() {
+						$('.shangtan_b').attr('src', 'img/b.png');
+					});
+			});
+		</script>
+		<script type="text/javascript">
+			$(function() {
+
+				$('.shangtan_c').hover(function() { //鼠标滑过图片切换 
+						$('.shangtan_c').attr('src', 'img/c_1.png');
+					},
+					function() {
+						$('.shangtan_c').attr('src', 'img/c.png');
+					});
+			});	
+			
+		</script>
+
+	</head>
+
+	<body class="main_bg1">
+
+		<div class="top clearfix">
+			<div class="top_zuo">
+				<!--<img src="img/tu_2.png"/>-->
+				<div id="banner_tabs" class="flexslider">
+					<ul class="slides">
+					<li>
+    <a title="" href="articl_portal.php?portal_id=3&column_id=65&content_id=376">
+    <img  alt="" style="background: url(img/banner12.png) no-repeat;background-size: 100% 100%; ">
+    </a>
+</li>                            					
+						
+					</ul>
+					<ul class="flex-direction-nav">
+						<li>
+							<a class="flex-prev" href="javascript:;">Previous</a>
+						</li>
+						<li>
+							<a class="flex-next" href="javascript:;">Next</a>
+						</li>
+					</ul>
+					<ol id="bannerCtrl" class="flex-control-nav flex-control-paging">
+						<li>
+                            <a>1</a>
+                        </li>					</ol>
+				</div>
+			</div>
+
+			<div class="top_you">
+
+				<img class="clock11" src="img/zm1.png" />
+<div class="zhong_1">
+
+			</div>
+			</div>
+			
+
+		</div>
+
+		<div class="down ">
+
+			<div class="down_one clearfix">
+				<a href="/general/index.php?id=4">
+					<img src="img/wendang_1.png" />
+					<div class="wendangzhongxin" style="margin-top: -25px;margin-left: 1px;">
+						<p>文档中心</p>
+					</div>
+				</a>
+
+			</div>
+			<div class="down_two clearfix">
+				<a href="/general/index.php?id=5">
+					<img src="img/gerenzhuli_01.png" />
+					<div class="gerenzhuli">
+						<p>个人助理</p>
+					</div>
+
+				</a>
+
+			</div>
+			<div class="down_three clearfix">
+				<img src="img/xiaoxitixing_1.png" />
+				<div class="rili">
+					<a href="/general/email/index.php">
+						<p>您有<span>--</span> 未读邮件
+						</p>
+					</a>
+<br>
+					<a href="/general/workflow/list/">
+						<p><span>--</span> 待办事项
+						</p>
+					</a>
+					<br>
+					<a href="/general/sms/remind_center/">
+						<p><span>--</span> 个人通知
+						</p>
+					</a>
+					<br>
+				</div>
+			</div>
+			<div class="down_fore clearfix">
+				<a href="">
+					<div class="pic_a">
+						<a href="/general/index.php?id=1"><img class="shangtan_a" src="img/a.png" /></a>
+					</div>
+				</a>
+				<a href="">
+					<div class="pic_b">
+						<a href="/general/index.php?id=2"><img class="shangtan_b" src="img/b.png" /></a>
+					</div>
+				</a>
+				<a href="">
+					<div class="pic_c">
+						<a href="/general/index.php?id=3"><img  
+class="shangtan_c" src="img/c.png" /></a>
+					</div>
+				</a>
+				<a href="">
+					<div class="pic_d">
+						<a href=""><img class="shangtan_d" src="img/d.png" /></a>
+					</div>
+				</a>
+				<a href="">
+					<div class="pic_e">
+						<a href=""><img class="shangtan_e" src="img/e.png" /></a>
+					</div>
+				</a>
+				<a href="">
+					<div class="pic_f">
+						<a href=""><img class="shangtan_f" src="img/f.png" /></a>
+					</div>
+				</a>
+			</div>
+			<div class="down_five">
+
+				<img src="img/xiezuobangong_1.png" />
+				<div class="xiezuobangong">
+
+					<a href="/general/index.php?id=6"><img class="xiezuo" src="img/xiezuo_53.png"></a>
+				</div>
+			</div>
+			<div class="down_six">
+
+				<img src="img/jinchengguanli_1.png" />
+				<div class="guanligoutai">
+					<a href="/general/index.php?id=7"><img class="guanli" src="img/geren.png"></a>
+				</div>
+				<div class="jinchengguanli">
+					<a href="/general/index.php?id=8"><img class="jincheng" src="img/zhengwu.png"></a>
+				</div>
+
+			</div>
+			
+			
+			
+			
+			<div class="down_seven " >
+				<a href="/portal/group?portal_id=3"><img class="img_pp" src="img/ipad_1.png" /></a>
+			</div>
+
+		</div>
+
+	</body>
+
+</html>
+
+
+
+<script type="text/javascript">
+$(function(){
+	$.post('/portal/personal/count.php?OUTPUT=1&MODULE_ID_STR=email,news,workflow,notify',{},function(data){
+    //alert( JSON.stringify(data));
+
+
+    
+    data.notify=15;
+    $(".rili a:first >p >span").html(data.email);//+'封未读邮件'
+    $(".rili a").eq(1).find("p span").html(data.workflow);//+'待办事项'
+    $(".rili a").eq(2).find("p span").html(data.notify);//+'个人通知'
+},'json');
+
+$("a[href='']").attr("href","/general/index.php");
+//$("a[href='']").attr("href","/portal/personal/?id=1");
+$("a[href='#']").attr("href","/general/index.php");
+$("a.my_portal").attr("href","/portal/group/index.php?portal_id=3");
+	
+})
+
+</script>

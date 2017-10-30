@@ -1,0 +1,651 @@
+@charset "gbk";
+html,body{
+	overflow: hidden;
+	min-width: 1024px;font-weight: bold;
+}
+html,
+body,
+div,
+p,
+ul,
+li,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+input,
+select,
+button,
+textarea,
+iframe,
+table,
+th,
+td {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	border: 0 none;
+}
+
+ul,
+li {
+	list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: 1.2em;
+}
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-family: "宋体";
+	font-size: 14px;
+	background: #fff;
+	color: #535353;
+	background: #fff;
+}
+
+a:link {
+	text-decoration: none;
+	color: #4e4d4d;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #000000;
+}
+
+a:hover {
+	color: red;
+}
+
+a:active {
+	text-decoration: none;
+	color: #000000;
+}
+
+
+.main_bg1 {
+	width: 100%;
+	height: 900px;
+	/*background-size: cover;*/
+	/*background-attachment: fixed;*/
+	background: url(../img/bg.png) no-repeat center top;
+	background-size: 100% 100%;
+}
+
+.top{width: 100%;}
+.top_zuo{
+	width: 43.3%;
+	margin-left: 7.8%; 
+	margin-top: 1.5%;
+	float: left;
+	/*background: url(../img/lun.png) no-repeat center;padding: 8px;
+	background-size: 100% 100%;
+	background-attachment: fixed;*/
+} 
+
+.top_zuo img {width: 100%;}
+
+
+.top_you{
+	width: 8.7%;
+	margin-right: 18%; 
+	margin-top: 1.5%;
+	float: right;
+} 
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+
+
+
+
+
+
+
+.down{width: 100%;margin-top:15px;}
+
+
+.down .down_one{width: 10.6%;height: auto;margin-left:7% ;margin-top:1% ;float: left;position: relative;}
+.down .down_one img{width: 100%;}
+.down .down_one a{font-size: 2em;font-weight: bold;color:#535353;}
+.down .down_one a:hover{color:red;}
+.down .down_one .wendangzhongxin{position: absolute;top: 70%;left: 15%;}
+
+
+
+
+
+
+.down .down_two{width: 11.2%;height: auto;margin-left:8% ;margin-top:0.3% ;float: left;position: relative;}
+.down .down_two img{width: 100%;}
+.down .down_two a{font-size: 2em;font-weight: bold;color:#535353;}
+.down .down_two a:hover{color:red;}
+.down .down_two .gerenzhuli{position: absolute;top:68%;left:7%;}
+
+
+
+
+.down .down_three{width: 20%;height: auto;margin-left:6% ;margin-top:1.5% ;float: left;position: relative;}
+.down .down_three img{width: 100%;}
+.down .down_three a{font-size: 2em;font-weight: bold;color:#535353;display: inline-block;}
+.down .down_three a:hover{color:red;}
+.down .down_three .rili{position: absolute;top:30%;left: 20%;}
+.down .down_three .rili span{color: red;}
+
+
+
+
+
+.down .down_fore{height: auto;width:100%;}
+.down .down_fore div{float: left;margin-bottom: 1%;}
+.down .down_fore .pic_a{width: 6.65%;margin-top:-6.9%;margin-left:3.8% ; }
+.down .down_fore .pic_b{width: 2.55%;margin-top:-6.9% ;margin-left:0%;}
+.down .down_fore .pic_c{width: 2.55%;margin-top:-6.9% ;margin-left:0% }
+.down .down_fore .pic_d{width: 2.55%;margin-top:-6.9%;margin-left:0% }
+.down .down_fore .pic_e{width: 2.55%;margin-top:-6.9%;margin-left:0% }
+.down .down_fore .pic_f{width: 2.55%;margin-top:-6.9%;margin-left:0% }
+.down .down_fore .pic_a img{width: 100%;}
+.down .down_fore .pic_b img{width: 100%;}
+.down .down_fore .pic_c img{width: 100%;}
+.down .down_fore .pic_d img{width: 100%;}
+.down .down_fore .pic_e img{width: 100%;}
+.down .down_fore .pic_f img{width: 100%;}
+
+
+
+
+
+
+
+
+
+
+
+.down .down_five{width: 35%;height: auto;margin-left:7% ;margin-top:-2% ;float: left;position: relative;}
+.down .down_five img{width: 100%;}
+.down .down_five .xiezuobangong{position: absolute;top:35%;left: 26%;}
+
+
+
+
+.down .down_six{width: 26.7%;height: auto;margin-left:7% ;margin-top:1% ;float: left;position: relative;}
+.down .down_six img{width: 100%;}
+.down .down_six .guanligoutai{position: absolute;top:4%;left: 30%;}
+.down .down_six .jinchengguanli{position: absolute;top:14%;left: 70%;}
+
+
+.down .down_seven{width: 18%;float: left;margin-top: -3.2%;margin-left:6%;}
+.down .down_seven img{width: 100%;}
+
+
+
+/*xuni.lunbo*/
+
+.flexslider {
+	margin: 0px auto 20px;
+	position: relative;
+	width: 100%;
+	height: 360px;
+	zoom: 1;
+}
+
+.flexslider .slides li {
+	width: 100%;
+}
+
+.flex-direction-nav a {
+	width: 70px;
+	height: 70px;
+	line-height: 99em;
+	overflow: hidden;
+	margin: 1px 0 0;
+	display: block;
+	background: url(../img/ad_ctr.png) no-repeat;
+	position: absolute;
+	top: 50%;
+	z-index: 999999!important;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	-webkit-transition: all .3s ease;
+	border-radius: 35px;
+}
+
+.flex-direction-nav .flex-next {
+	background-position: 0 -70px;
+	right: 0;
+}
+
+.flex-direction-nav .flex-prev {
+	left: 0;
+}
+
+.flexslider:hover .flex-next {
+	opacity: 0.8;
+	filter: alpha(opacity=25);
+}
+
+.flexslider:hover .flex-prev {
+	opacity: 0.8;
+	filter: alpha(opacity=25);
+}
+
+.flexslider:hover .flex-next:hover,
+.flexslider:hover .flex-prev:hover {
+	opacity: 1;
+	filter: alpha(opacity=50);
+}
+
+.flex-control-nav {
+	width: 100%;
+	position: absolute;
+	bottom: 10px;
+	text-align: center;
+}
+
+.flex-control-nav li {
+	margin: 0 2px;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+}
+
+.flex-control-paging li a {
+	background: url(../img/dot.png) no-repeat 0 -16px;
+	display: block;
+	height: 16px;
+	overflow: hidden;
+	text-indent: -99em;
+	width: 16px;
+	cursor: pointer;
+}
+
+.flex-control-paging li a.flex-active,
+.flex-control-paging li.active a {
+	background-position: 0 0;
+}
+
+.flexslider .slides a img {
+	width: 100%;
+	height: 380px;
+	display: block;
+}
+
+
+
+/*@media only screen and (min-width: 100px) and (max-width: 1300px) {
+	
+	body{font-size: 10px;}
+	.down .down_five .xiezuobangong{width: 60%;}
+	.down .down_six .guanligoutai{width: 15%;}
+	.down .down_six .jinchengguanli{width: 12%;}
+	.top_you{
+	width: 8%;
+	margin-right: 25%; 
+	margin-top: 1.5%;
+	float: right;
+} 
+.down .down_one a{font-size: 24px;}
+.down .down_two .gerenzhuli p{font-size: 22px;}
+}
+*/
+/*@media only screen and (min-width: 910px) and (max-width: 1600px) {
+		.down .down_five .xiezuobangong{left: 18%;width: 70%;}
+		.down .down_six{width: 30%;margin-left:5% ;margin-top:-3.5% ;}
+	.down .down_six .guanligoutai{top:5%;width: 14%;}
+.down .down_six .jinchengguanli{top:5%;width: 12%;}
+	.down .down_two .gerenzhuli{left:4%;font-size: 25px;}
+.down .down_seven{width: 23.1%;float: left;margin-top: -8.6%;margin-left:4%;}
+	.down .down_five img{width: 90%;}
+	.down .down_five{width: 17.7%;margin-left:11% ;margin-top:-5% ;}
+	.down .down_one .wendangzhongxin{position: absolute;top: 72%;left: 7%;}
+	.down .down_three .rili{position: absolute;top:25%;left: 18%;}
+	
+} 
+.down .down_fore div{float: left;margin-bottom: 5%;}
+.down .down_fore .pic_a{width: 10%;margin-top:-7.2%;margin-left:5% ; }
+.down .down_fore .pic_b{width: 9.55%;margin-top:-7.7% ;margin-left:-6% }
+.down .down_fore .pic_c{width: 6.05%;margin-top:-3%;margin-left:-6.7% }
+.down .down_fore .pic_d{width: 9.8%;margin-top:-7.4%;margin-left:-0.65% }
+}
+*/
+
+/*@media only screen and (min-width: 900px) and (max-width: 1280px) {
+	.down .downone a{font-size: 2.2em;font-weight: 500;color:#535353;}
+	.down .down_two .gerenzhuli{left:4%;font-size: 20px;}
+	.down .down_one .wendangzhongxin{top: 74%;left:10%;}
+
+	
+	}*/
+	/*
+@media only screen and (min-width: 1630px) and (max-width: 1920px) {
+	.down .down_five{margin-top: -5%;}
+	.down .down_six{margin-top: -2.5%;}
+	.down .down_seven{margin-top: -8.5%;margin-left: 8%;}
+	
+}*/
+
+@media only screen and (min-width: 100px) and (max-width: 1025px) {
+	
+	.main_bg1{height: 768px;}
+	/*文档中心字距离*/
+	.down .down_one .wendangzhongxin{top: 79%}
+	.down{width: 100%;margin-top:44px;}
+	/*日历距离*/
+	.down .down_three .rili{left: 14%;font-size: 11px;}
+	/*个人助理*/
+	.down .down_two .gerenzhuli{top: 74%;left: 6%;}
+	.down .down_three a{font-size: 1.3em;font-weight: 400;color:#535353;display: inline-block;}
+	
+	/*个人管理 政务*/
+	.down .down_six{width: 24%;}
+	
+.down .down_six .guanligoutai{top:21px;left:26px;width: 35%;}
+.down .down_six .jinchengguanli{top::20px!important;left:127px;width:35%;!important}
+/*协作办公*/
+.down .down_five{width: 16.7%;margin-left:16% ;margin-top:-1% ;}
+.down .down_five .xiezuobangong{top:14%;left: 9%;width: 73%;}
+/*文档中心*/
+.down .down_one{width: 11.3%;height: auto;margin-left:12% ;margin-top:3% ;float: left;}
+.down .down_one a{font-weight: 400;font-size: 1.1em;margin-top: 1px;}
+/*个人助理*/
+.down .down_two{width: 10%;height: auto;margin-left:9% ;margin-top:1% ;float: left;}
+.down .down_two a{font-weight: 400;font-size: 1.1em;margin-top: 1px;}
+/*轮播*/
+.top_zuo{
+	width: 36%;
+	margin-left: 12.2%; 
+	margin-top:3.5%;
+	float: left;}
+	/*日历*/
+.down .down_three{width: 17%;	margin-top: 2%;!important}
+
+.clock11{width: 124%;margin-top: 46px;margin-left: 36px;}
+
+.down .down_fore .pic_a{width: 6%;margin-top: -4.9%;}
+.down .down_fore .pic_b{width: 2.3%;margin-top: -4.9%;}
+.down .down_fore .pic_c{width: 2.3%;margin-top: -4.9%;}
+.down .down_fore .pic_d{width: 2.3%;margin-top: -4.9%;}
+.down .down_fore .pic_e{width: 2.3%;margin-top: -4.9%;}
+.down .down_fore .pic_f{width: 2.3%;margin-top: -4.9%;}
+
+/*ipad*/
+.down .down_seven{width: 17%;}
+
+.flexslider {
+	height: 229px;
+			}
+.flexslider .slides a img {
+	height: 228px;
+	width: 100%;
+	margin-left: -1px;
+	margin-top: 14px;
+}
+}
+
+@media only screen and (min-width: 1283px) and (max-width: 1367px) {
+	
+	.main_bg1{height: 768px;}
+	/*文档中心字距离*/
+	.down .down_one .wendangzhongxin{top: 75%}
+	
+	/*日历距离*/
+	.down .down_three .rili{left: 14%;}
+	/*个人助理*/
+	.down .down_two .gerenzhuli{top: 74%;left: 6%;}
+	.down .down_three a{font-size: 1.3em;font-weight: 400;color:#535353;display: inline-block;}
+	
+	/*个人管理 政务*/
+	.down .down_six{width: 24%;}
+	
+.down .down_six .guanligoutai{top:21px;left:30px;width: 35%;}
+.down .down_six .jinchengguanli{top::20px!important;left:163px;width:35%;!important}
+/*协作办公*/
+.down .down_five{width: 16.7%;margin-left:16% ;margin-top:-1% ;}
+.down .down_five .xiezuobangong{top:14%;left: 9%;width: 73%;}
+/*文档中心*/
+.down .down_one{width: 11.3%;height: auto;margin-left:12% ;margin-top:3% ;float: left;}
+.down .down_one a{font-weight: 400;font-size: 1.3em;margin-top: -2px;}
+/*个人助理*/
+.down .down_two{width: 10%;height: auto;margin-left:9% ;margin-top:1% ;float: left;}
+.down .down_two a{font-weight: 400;font-size: 1.3em;margin-top: -2px;}
+/*轮播*/
+.top_zuo{
+	width: 36%;
+	margin-left: 12.2%; 
+	margin-top:3.5%;
+	float: left;}
+	/*日历*/
+.down .down_three{width: 17%;	margin-top: 2%;!important}
+
+.clock11{width: 124%;margin-top: 46px;margin-left: 36px;}
+
+.down .down_fore .pic_a{width: 6%;margin-top: -4.9%;}
+.down .down_fore .pic_b{width: 2.3%;margin-top: -4.9%;}
+.down .down_fore .pic_c{width: 2.3%;margin-top: -4.9%;}
+.down .down_fore .pic_d{width: 2.3%;margin-top: -4.9%;}
+.down .down_fore .pic_e{width: 2.3%;margin-top: -4.9%;}
+.down .down_fore .pic_f{width: 2.3%;margin-top: -4.9%;}
+
+/*ipad*/
+.down .down_seven{width: 17%;}
+
+.flexslider {
+	height: 229px;
+			}
+.flexslider .slides a img {
+	height: 228px;
+	width: 100%;
+	margin-left: -1px;
+	margin-top: 2px;
+}
+}
+
+@media only screen and (min-width: 1027px) and (max-width: 1281px) {
+	
+	.main_bg1{height: 720px;}
+	/*文档中心字距离*/
+	.down .down_one .wendangzhongxin{top: 75%}
+	
+	/*日历距离*/
+	.down .down_three .rili{left: 14%;}
+	/*个人助理*/
+	.down .down_two .gerenzhuli{top: 74%;left: 6%;}
+	.down .down_three a{font-size: 1.3em;font-weight: 400;color:#535353;display: inline-block;}
+	
+	/*个人管理 政务*/
+	.down .down_six{width: 24%;}
+	
+.down .down_six .guanligoutai{top:21px;left:30px;width: 35%;}
+.down .down_six .jinchengguanli{top::20px!important;left:163px;width:35%;!important}
+/*协作办公*/
+.down .down_five{width: 16.7%;margin-left:16% ;margin-top:-1% ;}
+.down .down_five .xiezuobangong{top:14%;left: 9%;width: 73%;}
+/*文档中心*/
+.down .down_one{width: 11.3%;height: auto;margin-left:12% ;margin-top:3% ;float: left;}
+.down .down_one a{font-weight: 400;font-size: 1.3em;margin-top: -2px;}
+/*个人助理*/
+.down .down_two{width: 10%;height: auto;margin-left:9% ;margin-top:1% ;float: left;}
+.down .down_two a{font-weight: 400;font-size: 1.3em;margin-top: -2px;}
+/*轮播*/
+.top_zuo{
+	width: 36%;
+	margin-left: 12.2%; 
+	margin-top:3.5%;
+	float: left;}
+	/*日历*/
+.down .down_three{width: 17%;	margin-top: 2%;!important}
+
+.clock11{width: 124%;margin-top: 46px;margin-left: 36px;}
+
+.down .down_fore .pic_a{width: 6%;margin-top: -4.9%;}
+.down .down_fore .pic_b{width: 2.3%;margin-top: -4.9%;}
+.down .down_fore .pic_c{width: 2.3%;margin-top: -4.9%;}
+.down .down_fore .pic_d{width: 2.3%;margin-top: -4.9%;}
+.down .down_fore .pic_e{width: 2.3%;margin-top: -4.9%;}
+.down .down_fore .pic_f{width: 2.3%;margin-top: -4.9%;}
+
+/*ipad*/
+.down .down_seven{width: 17%;}
+
+.flexslider {
+	height: 200px;
+			}
+.flexslider .slides a img {
+	height: 217px;
+	width: 100%;
+	margin-left: -1px;
+	margin-top: 2px;!important
+}
+}
+
+
+@media only screen and (min-width: 1368px) and (max-width: 1601px) {
+	.down .down_three a{font-size: 1.6em;font-weight: 400;color:#535353;display: inline-block;}
+	
+	/*个人管理 政务*/
+	.down .down_six{width: 24%;}
+	
+.down .down_six .guanligoutai{top:26px;left:37px;width: 35%;}
+.down .down_six .jinchengguanli{top::20px!important;left:197px;width:35%;!important}
+/*协作办公*/
+.down .down_five{width: 16.7%;margin-left:16% ;margin-top:-1% ;}
+.down .down_five .xiezuobangong{top:14%;left: 9%;width: 73%;}
+/*文档中心*/
+.down .down_one{width: 11.3%;height: auto;margin-left:12% ;margin-top:3% ;float: left;}
+.down .down_one a{font-weight: 400;font-size: 1.6em;margin-top: -2px;}
+/*个人助理*/
+.down .down_two{width: 10%;height: auto;margin-left:9% ;margin-top:1% ;float: left;}
+.down .down_two a{font-weight: 400;font-size: 1.6em;margin-top: -2px;}
+/*轮播*/
+.top_zuo{
+	width: 36%;
+	margin-left: 12.2%; 
+	margin-top:-0.5%;
+	float: left;}
+	/*日历*/
+.down .down_three{width: 17%;	margin-top: 2%;!important}
+
+.down .down_three .rili{left: 15%;}
+
+
+.flexslider {
+	height: 269px;
+			}
+.flexslider .slides a img {
+	height: 241px;
+	width: 100%;
+	margin-left: -1px;
+	margin-top: 59px;
+}
+}
+
+
+@media only screen and (min-width: 1603px) and (max-width: 1921px) {
+	
+	
+	.main_bg1{height: 1080px;}
+	.down .down_three a{font-size: 1.6em;font-weight: 400;color:#535353;display: inline-block;}
+	
+	/*个人管理 政务*/
+	.down .down_six{width: 24%;}
+	
+.down .down_six .guanligoutai{top:30px;left:37px;width: 35%;}
+.down .down_six .jinchengguanli{top::20px!important;left:238px;width:35%;!important}
+/*协作办公*/
+.down .down_five{width: 16.7%;margin-left:16% ;margin-top:-1% ;}
+.down .down_five .xiezuobangong{top:14%;left: 9%;width: 73%;}
+/*文档中心*/
+.down .down_one{width: 11.3%;height: auto;margin-left:12% ;margin-top:3% ;float: left;}
+.down .down_one a{font-weight: 400;font-size: 1.6em;margin-top: -2px;}
+/*个人助理*/
+.down .down_two{width: 10%;height: auto;margin-left:9% ;margin-top:1% ;float: left;}
+.down .down_two a{font-weight: 400;font-size: 1.6em;margin-top: -2px;}
+/*轮播*/
+.top_zuo{
+	width: 36%;
+	margin-left: 12.2%; 
+	margin-top:3.5%;
+	float: left;}
+	/*日历*/
+.down .down_three{width: 17%;	margin-top: 2%;!important}
+
+.down .down_three .rili{left: 15%;}
+
+
+.flexslider {
+	height: 320px;
+			}
+.flexslider .slides a img {
+	height: 321px;
+	width: 100%;
+	margin-left: -1px;
+	margin-top: 3px;
+}
+}
+@media only screen and (min-width: 1923px) and (max-width: 2057px) {
+	
+	
+	.main_bg1{height: 1080px;}
+	.down .down_three a{font-size: 1.6em;font-weight: 400;color:#535353;display: inline-block;}
+	
+	/*个人管理 政务*/
+	.down .down_six{width: 24%;}
+	
+.down .down_six .guanligoutai{top:30px;left:37px;width: 35%;}
+.down .down_six .jinchengguanli{top::20px!important;left:238px;width:35%;!important}
+/*协作办公*/
+.down .down_five{width: 16.7%;margin-left:16% ;margin-top:-1% ;}
+.down .down_five .xiezuobangong{top:14%;left: 9%;width: 73%;}
+/*文档中心*/
+.down .down_one{width: 11.3%;height: auto;margin-left:12% ;margin-top:3% ;float: left;}
+.down .down_one a{font-weight: 400;font-size: 1.6em;margin-top: -2px;}
+/*个人助理*/
+.down .down_two{width: 10%;height: auto;margin-left:9% ;margin-top:1% ;float: left;}
+.down .down_two a{font-weight: 400;font-size: 1.6em;margin-top: -2px;}
+/*轮播*/
+.top_zuo{
+	width: 36%;
+	margin-left: 12.2%; 
+	margin-top:3.5%;
+	float: left;}
+	/*日历*/
+.down .down_three{width: 17%;	margin-top: 2%;!important}
+
+.down .down_three .rili{left: 15%;}
+
+
+.flexslider {
+	height: 320px;
+			}
+.flexslider .slides a img {
+	height: 321px;
+	width: 100%;
+	margin-left: -1px;
+	margin-top: 3px;
+}
+}

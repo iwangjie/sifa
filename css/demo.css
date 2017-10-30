@@ -1,0 +1,103 @@
+.top_you{position: relative;}
+#clock
+{
+	position: absolute;
+	width: 9.1%;
+	list-style: none;
+	margin-top: 3.5%;
+	margin-left:79.8%;
+}
+#clock div{
+	height: auto;
+	width: auto;
+	-webkit-transform: scale(.30);
+	transform: scale(.30);
+	
+	
+}
+#seconds,
+#minutes,
+#hours
+{
+	position: absolute;
+	width: 37px;
+	height: 299px;
+	left: -81px;
+	top: -506px;
+}
+#date
+{
+	position: absolute;
+	top: 80px;
+	color: #666;
+	right: 20px;
+	font-weight: bold;
+	letter-spacing: 3px;
+	font-family: "΢���ź�";
+	font-size: 20px;
+	line-height: 30px;
+}
+#hours
+{
+	background: url('../img/hands.png') no-repeat left;
+	width:38px;
+	z-index: 1000;
+}
+#minutes
+{
+	background: url('../img/hands.png') no-repeat center;
+	width:28px;
+	z-index: 2000;
+}
+
+#seconds
+{
+	background: url('../img/hands.png') no-repeat right;
+	z-index: 3000;
+	margin-top: 5px;margin-left: 0px;
+}
+/*
+@media only screen and (min-width: 910px) and (max-width: 1600px) {
+ 	/*#clock{
+	margin-top:-13%;
+	margin-left:70%;}
+	#seconds{margin-top: -3.8px;margin-left: -8px}
+	
+	}*/
+/*@media only screen and (min-width: 1630px) and (max-width: 1920px) {	
+	#clock{
+	margin-top:5.5%;
+	margin-left:65%;}
+	#seconds{margin-top:-1px;margin-left: 0}
+	
+}
+/*@media only screen and (min-width: 100px) and (max-width: 1300px) {
+
+	#clock{
+	margin-top:10%;
+	margin-left:110%;}
+	#seconds{margin-top: 1px;margin-left: -4px}
+	
+}*/
+
+@media only screen and (min-width: 100px) and (max-width: 1025px) {
+	#clock{
+	margin-top:55%;
+	margin-left:120%;}
+	#seconds{margin-top: 6px;margin-left: -4px}
+}
+
+@media only screen and (min-width: 1027px) and (max-width: 1281px) {
+	#clock{
+	margin-top:33%;
+	margin-left:110%;}
+	#seconds{margin-top: 9px;margin-left: -4px}
+}
+@media only screen and (min-width: 1283px) and (max-width: 1367px) {
+	#clock{margin-top:29%;margin-left:110%;}
+	#seconds{margin-top: 6px;margin-left: -4px}
+}
+@media only screen and (min-width: 1603px) and (max-width: 1921px) {
+	#clock{margin-top:10%;margin-left:70%;}
+	#seconds{margin-top: 6px;margin-left: -4px}
+}
